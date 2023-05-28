@@ -1,0 +1,255 @@
+
+:root{
+   --babypink-color:#F2CEF2;
+   --grey-color:#9E91B7;
+   --pink-color:#DF99F2;
+   --purple-color:#3D2DA6;
+   --blue-color:#07338C;
+   --royalblue-color:#021740;
+   --white-color:#FFF;
+   --black-color:#000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background: linear-gradient( 
+        80deg, var(--royalblue-color), var(--black-color), var(--royalblue-color)
+    );
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/*Design de la navigation*/
+nav{
+    display: flex;
+    align-items: normal;
+   justify-content: space-between;
+    padding: 30px 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#Tete .Logos{
+    display: flex;
+    height: 23px;
+    margin-left: 7%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-right: 20%;
+}
+
+a:hover{
+    color: var(--purple-color);
+}
+ul a{
+    color: #FFF;
+    font-size: 12px;
+}
+
+/*Design première partie*/
+#Film{
+    display: flex;
+    margin: 2%;
+}    
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+  margin: 5%;
+  padding-top: 5%;
+    
+
+}
+.presentation{
+    padding-top: 10%;
+    margin: 0;
+   margin-right: 60%;
+}
+.presentation .Titre{
+    font-size: 50px;
+    @font-face {
+        font-family: Panthera;
+        src: url(../Police/Panthera.ttf);
+    }
+    padding-bottom: 10px;
+    color: #9E91B7;
+}
+
+.presentation .Stitre{
+    font-size: 25px;
+    padding-bottom: 20px;
+    @font-face {
+        font-family: wakandaforever-regular;
+        src: url();
+    }
+    color: #9E91B7;
+}
+
+.presentation .Contenue{
+    font-size: 15px;
+    @font-face {
+        font-family: Cantarell-Regular ;
+        src: url();
+    }
+    font-weight: lighter;
+}
+.presentation .Voir{
+    padding-top: 10px;
+    text-decoration: underline;
+}
+/*Design de la Deuxième partie*/
+
+#Personnage{
+    display: flex;
+    margin-left: 10%;
+    padding-top: 10%;
+    background-clip:content-box;
+    background-color: #021740;
+    background-size: 50%;
+    background-position-x: center;
+}
+.KILLMONGER{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}   
+.OKOYE{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.KILLMONGER .Titre{
+    color: #9E91B7;
+    @font-face {
+        font-family: wakandaforever-regular;
+        src: url();
+    }
+}
+.KILLMONGER .Texte{
+    font-size: 15px;
+}
+.OKOYE .Titre{
+    color: #9E91B7;
+}
+.OKOYE .Texte{
+    font-size: 15px;
+}
+/*design de la 3eme partie*/
+#Histoire{
+    display: flex;
+    padding-top: 10%;
+}
+.Hero{
+    margin-left: 10%;
+    text-align: justify;
+    padding-right: 15%;
+}
+.Hero .Titre{
+    padding-bottom: 3%;
+    color: #9E91B7;
+}
+.Hero .Texte{
+    padding-bottom: 3%;
+}
+.ligne1{
+    padding-bottom: 3%;
+}
+.ligne2{
+    padding-bottom: 3%;
+}
+
+.Vengeur .Titre{
+    padding-bottom: 3%;
+    color: #9E91B7;
+}
+.Vengeur .Texte{
+    padding-bottom: 3%;
+}
+.ligne3{
+    padding-bottom: 3%;
+}
+.ligne4{
+    padding-bottom: 3%;
+}
+.ligne5{
+    padding-bottom: 3%;
+}
+
+.Protecteur .Titre{
+    padding-bottom: 3%;
+    color: #9E91B7;
+}
+.Protecteur .Texte{
+    padding-bottom: 3%;
+}
+.ligne6{
+    padding-bottom: 3%;
+}
+.ligne7{
+    padding-bottom: 3%;
+}
+#Histoire .Round-image{
+    padding-top: 30%;
+}
+.Bio .Titre{
+    display: flex;
+    font-size: 7px;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-right: 110px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.Bio h1{
+    padding-left: 30%;
+    padding-top: 10px;
+}
+.Bio .Texte{
+    padding-left: 60px;
+    line-height: 25px;
+}
+
+/*Design Contact*/
+#Contact{
+    padding-top: 10%;
+    padding-bottom: 40%;
+    background-image:url(../Accueil/Pantherhome7.png);
+    
+}
+.Content{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    line-height: 30px;
+}
+.Content h1{
+    font-size: 17px;
+}
+.Content h2{
+    font-size: 50px;
+    font-weight: lighter;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+/*Design de a propos*/
+#Propos .Content{
+    display:flex;
+    justify-content:space-between;
+}
+.Texte{
+    padding-left: 50px;
+    padding-right: 5px;
+}
+.logos{
+    margin-right: 0;
+}
+
+ 
